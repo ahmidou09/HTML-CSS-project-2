@@ -1,0 +1,48 @@
+Form styles */
+form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+} 
+
+/* Input field styles */
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+} 
+
+/*Placeholder styles */
+::placeholder {
+    color: #999;
+} 
+
+/* Radio button and checkbox styles */
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 0 10px 0 0;
+} 
+
+/* Textarea styles */
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+} 
+
+/* Select element styles */
+select {
+    width: 100%;
+    padding: 12px 20px;
+}
